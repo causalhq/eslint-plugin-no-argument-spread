@@ -1,6 +1,6 @@
 # Show warning when someone uses the spread operator for function arguments. (no-argument-spread)
 
-Please describe the origin of the rule here.
+Expressions like `Math.max(...array)` can lead to stack overflows for very large arrays.
 
 ## Rule Details
 
@@ -10,7 +10,8 @@ Examples of **incorrect** code for this rule:
 
 ```js
 
-// fill me in
+Math.max(...array)
+f(2, ...array, 4)
 
 ```
 
@@ -18,18 +19,7 @@ Examples of **correct** code for this rule:
 
 ```js
 
-// fill me in
+Math.max(1, 2)
+f(1, 2, 4, {...x, y: 2})
 
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.

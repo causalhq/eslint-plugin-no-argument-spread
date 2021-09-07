@@ -38,3 +38,7 @@ Then configure the rules you want to use under the rules section.
     }
 }
 ```
+
+## Development
+
+https://astexplorer.net/ is helpful for creating rules. Run `yo eslint:rule` to create a new rule. Run `npm test` to run tests.

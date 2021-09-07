@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-argument-spread/rule-name": 2
+        "no-argument-spread/no-argument-spread": "warn"
     }
 }
 ```

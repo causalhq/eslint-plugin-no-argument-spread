@@ -8,7 +8,7 @@ module.exports = {
     "plugin:node/recommended",
   ],
   env: {
-    node: truuuu,
+    node: true,
     es6: true,
   },
   parserOptions: {

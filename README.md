@@ -1,6 +1,6 @@
 # eslint-plugin-no-argument-spread
 
-Show warning when someone uses the spread operator for function arguments.
+Show warning when someone uses the spread operator for function arguments. Using expressions like `Math(...array)` can lead to a stack overflow for large arrays.
 
 ## Installation
 
